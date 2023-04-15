@@ -5,6 +5,7 @@ Palindromes are words, phrases, numbers, or other sequences of characters that r
 1. Using String Manipulation:
 
 ```
+#!/usr/bin/env python3
 def is_palindrome(s):
     s = s.lower().replace(" ", "")  # Convert to lowercase and remove spaces
     return s == s[::-1]  # Compare with its reverse
